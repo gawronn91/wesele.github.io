@@ -17,7 +17,7 @@ body {
 }
 .header {
   height: 95 vh;  /*   Idzie 95% od góry do dołu */
-  background-image: url(img/hero.jpg)
+  background-image: url(wesele.github.io/img/hero.jpg)
   background-size: cover;
   background-position: top;
 }
