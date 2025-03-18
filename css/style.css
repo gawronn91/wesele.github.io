@@ -20,7 +20,7 @@ body {
   color: #7ed56f;
 }
 .header {
-  height: 200;  /*   Idzie 95% od góry do dołu */
+  height: 300;  /*   Idzie 95% od góry do dołu */
   background-size: cover;
   background-position: top;
 }
