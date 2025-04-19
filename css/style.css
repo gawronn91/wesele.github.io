@@ -70,7 +70,7 @@
 .location a:visited,
 .location a:hover,
 .location a:active {
-  text-decoration: none;
+  text-decoration: none !important;
   color: inherit;
 }
   
