@@ -57,12 +57,22 @@
   }
 
   .location a {
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  -webkit-tap-highlight-color: transparent; /* Optional: removes blue tap flash on mobile */
+}
+
+/* Mobile browsers can be aggressive, so make sure these are covered too */
+.location a:link,
+.location a:visited,
+.location a:hover,
+.location a:active {
+  text-decoration: none;
+  color: inherit;
+}
   
   /* Main image */
   .main-image {
