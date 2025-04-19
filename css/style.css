@@ -7,7 +7,7 @@
   
   html, body {
     height: 100%;
-    font-family: "Lato", sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: white;
     color: black;
   }
@@ -55,6 +55,14 @@
     align-items: center;
     gap: 0.5rem;
   }
+
+  .location a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
   
   /* Main image */
   .main-image {
@@ -66,7 +74,7 @@
   /* Footer */
   .footer {
     padding: 2rem 0;
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     color: #333;
   }
   
