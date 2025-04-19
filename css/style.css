@@ -1,39 +1,72 @@
-/*
-COLORS:
-
-Light green: #7ed56f
-Medium green: #55c57a
-Dark green: #28b485
-
-*/
+/* Reset and base setup */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html, body {
+  }
+  
+  html, body {
     height: 100%;
-}
-
-body {
     font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 1.7;
+    background-color: white;
     color: black;
+  }
+  
+  body {
     display: flex;
     flex-direction: column;
-}
-
-.header {
-    height: auto; /* Or a specific size if needed */
-    padding: 1rem; /* Optional, gives space inside header */
-    background-size: cover;
-}
-
-img {
-    display: block;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 0rem;
+  }
+  
+  /* Header image with names and background symbol */
+  .header {
+    width: 100%;
+    /* padding-top: 2rem;
+    padding-bottom: 1rem; */
+    padding: 3rem 4rem 2rem 4rem; 
+  }
+  
+  .names-image {
     width: 100%;
     height: auto;
-}
+    max-width: 400px; /* Adjust as needed for better scaling */
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Info section */
+  .info {
+    margin-bottom: 1.5rem;
+  }
+  
+  .date {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+  
+  .location {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  /* Main image */
+  .main-image {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 2rem 0;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
